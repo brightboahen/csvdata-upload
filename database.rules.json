@@ -1,0 +1,9 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "survey":{
+      ".indexOn":["I_am","my_age_is","email"]
+    }
+  }
+}
